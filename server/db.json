@@ -1,0 +1,52 @@
+[
+  {
+    "id": 68859,
+    "title": "California Gold Nutrition, LactoBif® Pet Probiotics, 5 Billion CFU, 60 Veggie Capsules",
+    "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01054/u/113.jpg",
+    "reviews": 7638,
+    "price": 1051.43,
+    "typeofproduct": "recommendedProducts",
+    "description": "Pet probiotics with 5 billion CFU in veggie capsules.",
+    "category": "recommendedProducts"
+  },
+  {
+    "id": 73216,
+    "title": "petnc NATURAL CARE, Hip & Joint, All Dog, Liver, 90 Soft Chews, 6.3 oz (180 g)",
+    "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen27591/u/31.jpg",
+    "reviews": 4396,
+    "price": 910.69,
+    "typeofproduct": "recommendedProducts",
+    "description": "Hip and joint support soft chews for dogs with liver flavor.",
+    "category": "recommendedProducts"
+  },
+  {
+    "id": 115011,
+    "title": "petnc NATURAL CARE, Pre & Probiotic Soft Chews, All Dog, Liver, 120 Soft Chews, 6.3 oz (180 g)",
+    "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen27974/u/24.jpg",
+    "reviews": 608,
+    "price": 1084.32,
+    "typeofproduct": "recommendedProducts",
+    "description": "Prebiotic and probiotic soft chews for dogs with liver flavor.",
+    "category": "recommendedProducts"
+  },
+  {
+    "id": 96227,
+    "title": "Charlie and Frank, Pet Omega-3 Fish Oil, For Cats & Dogs, 3.3 fl oz (100 ml)",
+    "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cfa/cfa01396/u/61.jpg",
+    "reviews": 3470,
+    "price": 1039.67,
+    "typeofproduct": "recommendedProducts",
+    "description": "Omega-3 fish oil supplement for cats and dogs.",
+    "category": "recommendedProducts"
+  },
+  {
+    "id": 52445,
+    "title": "petnc NATURAL CARE, Hip & Joint, Level 3, Liver, 45 Chewables",
+    "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen27480/u/52.jpg",
+    "reviews": 2033,
+    "price": 715.79,
+    "typeofproduct": "recommendedProducts",
+    "description": "Advanced hip and joint support chewables for dogs.",
+    "category": "recommendedProducts"
+  }
+]

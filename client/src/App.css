@@ -1,0 +1,16 @@
+:root {
+  --toastify-color-success: #009688; /* default green */
+  --toastify-color-error: #e74c3c;   /* red */
+  --toastify-color-warning: #f1c40f; /* yellow */
+  --toastify-color-info: #3498db;    /* blue */
+
+  /* Optional icon colors */
+  --toastify-icon-color-success: #009688;
+  --toastify-icon-color-error: #e74c3c;
+  --toastify-icon-color-warning: #f1c40f;
+  --toastify-icon-color-info: #3498db;
+
+  /* Backgrounds or other tweaks */
+  --toastify-color-light: #ffffff;
+  --toastify-color-dark: #1e293b;
+}

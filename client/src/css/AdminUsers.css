@@ -1,0 +1,95 @@
+.admin-users-container {
+  padding: 30px;
+}
+
+.admin-users-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.admin-users-card h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.user-box {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  transition: 0.3s ease;
+}
+
+.user-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.user-box h4 {
+  margin: 0;
+  color: #0f172a;
+}
+
+.user-box p {
+  font-size: 14px;
+  color: #64748b;
+  margin: 5px 0 10px;
+}
+
+/* Role Badge */
+.role-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.admin-role {
+  background: #009688;
+  color: white;
+}
+
+.user-role {
+  background: #64748b;
+  color: white;
+}
+
+/* Buttons */
+.role-btn {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.create-btn {
+  background: #009688;
+  color: white;
+}
+
+.remove-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.remove-btn:hover {
+  background: #dc2626;
+}
+
+.error {
+  color: red;
+}

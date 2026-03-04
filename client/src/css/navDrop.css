@@ -1,0 +1,171 @@
+/* Account Dropdown Styles */
+.account-dropdown-panel {
+  display: flex;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: absolute;
+  right: 10px;
+  top: 70px;
+  z-index: 1000;
+  width: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  font-family: Arial, sans-serif;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.rewards-box {
+  width: 50%;
+  background: #f8f9fa;
+  padding: 15px;
+  text-align: center;
+  border-right: 1px solid #e9ecef;
+  color: #333;
+  border-radius: 6px 0 0 6px;
+}
+
+.rewards-box h5 {
+  color: #009688;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.rewards-box p {
+  font-size: 14px;
+  margin: 10px 0;
+  font-weight: 500;
+  color: #495057;
+  line-height: 1.4;
+}
+
+.rewards-box p strong {
+  font-size: 16px;
+  color: #212529;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.rewards-box a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.rewards-box a:hover {
+  color: #0b5ed7;
+  text-decoration: underline;
+}
+
+.account-actions {
+  width: 50%;
+  padding: 10px 15px;
+  color: #333;
+}
+
+.welcome-heading {
+  color: #009688;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.account-actions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.account-actions li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #495057;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+.account-actions li:hover {
+  background-color: #f1f3f5;
+  color: #212529;
+}
+
+.account-actions li svg {
+  margin-right: 10px;
+  color: #009688;
+  font-size: 14px;
+}
+
+.account-actions a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+.sign-button {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.sign-button:hover {
+  background-color: #4a8500;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .account-dropdown-panel {
+    flex-direction: column;
+    width: 320px;
+    right: 5px;
+    top: 60px;
+  }
+  
+  .rewards-box, .account-actions {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .rewards-box {
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .account-actions {
+    border-radius: 0 0 6px 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .account-dropdown-panel {
+    width: 300px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 150px;
+  }
+}

@@ -1,0 +1,56 @@
+/* Container centers the card */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card styling */
+.card {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* Heading */
+.card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* OTP input styling (already used inline, but for global override) */
+.otp-input {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  text-align: center;
+  background-color: #f8f9fa;
+  color: #495057;
+  margin-left: 10px;
+}
+
+.otp-input:focus {
+  outline: none;
+  border: 2px solid #007bff;
+  background-color: #fff;
+}
+
+/* Verify button */
+.btn-primary {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card
+{
+    width: 800px;
+}

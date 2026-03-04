@@ -1,0 +1,174 @@
+.shopping-cart-container {
+  display: flex;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cart-left {
+  flex: 2;
+  padding-right: 30px;
+}
+
+.cart-right {
+  flex: 1;
+  border-left: 1px solid #ddd;
+  padding-left: 30px;
+}
+
+.select-all {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  align-items: flex-start;
+  border-top: 1px solid #ddd;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #d6f3d6;
+  color: #2d7b2d;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+
+.product-code, .low-stock {
+  color: #888;
+  font-size: 12px;
+}
+
+.low-stock {
+  color: #d9534f;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  color: #555;
+}
+
+.save-btn {
+  background: none;
+  border: none;
+  color: #0073e6;
+  cursor: pointer;
+  padding: 0;
+}
+
+.price {
+  text-align: right;
+}
+
+.price .original {
+  text-decoration: line-through;
+  color: #aaa;
+  margin-left: 4px;
+  font-size: 13px;
+}
+
+.price .savings {
+  display: block;
+  color: #d9534f;
+  font-size: 12px;
+}
+
+.unavailable-section h5 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.unavailable {
+  opacity: 0.6;
+}
+
+.unavailable-msg {
+  font-size: 13px;
+  color: #b06d00;
+}
+
+.view-similar {
+  font-size: 12px;
+  color: #0073e6;
+  margin-top: auto;
+  align-self: flex-end;
+}
+
+.promo h5, .summary h5 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.promo input {
+  width: 70%;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.apply-btn {
+  background-color: #fff;
+  border: 1px solid green;
+  color: green;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.line.red {
+  color: red;
+}
+
+.line.sub {
+  font-weight: bold;
+}
+
+.line.total {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

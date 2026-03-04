@@ -1,0 +1,47 @@
+.admin-sidebar {
+  width: 260px;
+  background-color: #0f172a;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.admin-logo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.admin-sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.admin-sidebar ul li:hover {
+  background-color: #1e293b;
+}
+
+.admin-sidebar ul li.active {
+  background-color: #3b82f6;
+}
+
+.sidebar-icon {
+  font-size: 14px;
+}
+
+.admin-sidebar h4 {
+  margin: 20px 0 10px;
+  font-size: 14px;
+  color: #94a3b8;
+}

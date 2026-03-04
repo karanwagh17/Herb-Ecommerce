@@ -1,0 +1,45 @@
+   .why-iherb-wrapper {
+  background: #fff;
+  padding: 30px 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-bottom: 3px solid #f2c300;
+}
+
+ .why-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+ .why-iherb-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+ .why-box {
+  max-width: 200px;
+  text-align: center;
+}
+
+ .why-box img {
+  height: 36px;
+  margin-bottom: 10px;
+}
+
+.why-box h3 {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 8px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+ .why-box p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}

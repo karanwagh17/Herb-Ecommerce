@@ -1,0 +1,51 @@
+.address-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.address-form select,
+.address-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-row input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #4c9c2e;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
